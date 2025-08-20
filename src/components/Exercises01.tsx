@@ -14,8 +14,9 @@ export default class Exercises01 extends Component<object, NguyenMinhSon> {
     render() {
         return (
             <div>
-                <p>Ho va ten: (this.state.name)</p>
+                <p>Ho va ten: {this.state.name}</p>
             </div>
         )
     }
 }
+
