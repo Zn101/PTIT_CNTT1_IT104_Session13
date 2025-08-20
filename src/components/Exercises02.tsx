@@ -21,11 +21,12 @@ export default class Exercises01 extends Component<object, NguyenMinhSon> {
         return (
             <div>
                 <h3>Thong tin ca nhan</h3>
-                <p>id: (this.state.id)</p>
-                <p>Ten: (this.state.name)</p>
-                <p>Ngay sinh: (this.state.dob)</p>
-                <p>Dia chi: (this.state.address)</p>
+                <p>id: {this.state.id}</p>
+                <p>Ten: {this.state.name}</p>
+                <p>Ngay sinh: {this.state.dob}</p>
+                <p>Dia chi: {this.state.address}</p>
             </div>
         )
     }
 }
+
