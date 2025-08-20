@@ -8,7 +8,7 @@ import ListPost from "./components/ListPost";
 import Parent_Comp from "./components/Parent_Comp";
 import ParentComponent from "./components/ParentComponent";
 import Theme from "./components/Theme";
-import "./TodoList.css";
+// import "./TodoList.css";
 // import TodoList from "./components/TodoList.tsx";
 
 function App() {
